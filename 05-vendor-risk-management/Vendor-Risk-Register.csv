@@ -1,0 +1,9 @@
+Vendor,Tier,Risk Score,Risk Rating,Assessment Date,Next Review,Open Findings,Status
+Okta,Tier 1 - Critical,18/100,Low,2026-03-10,2027-03-01,1 (Minor),Active - Compliant
+Stripe,Tier 1 - Critical,22/100,Low,2026-04-05,2027-04-01,0,Active - Compliant
+ADP,Tier 1 - Critical,58/100,Medium-High,2026-03-22,2026-09-01,3 (1 High 2 Medium),Active - Remediation Required
+GitHub,Tier 2 - High,44/100,Medium,2026-02-18,2026-08-01,3 (1 Critical 1 High 1 Medium),Active - Critical Action Pending
+Twilio,Tier 2 - High,31/100,Low-Medium,2026-01-01,2027-01-01,0,Active - Compliant
+Snowflake,Tier 2 - High,27/100,Low,2026-02-01,2027-02-01,1 (Low - data tagging),Active - Minor Gap
+PagerDuty,Tier 2 - High,19/100,Low,2026-01-01,2027-01-01,0,Active - Compliant
+AWS (Infrastructure),Tier 1 - Critical,24/100,Low,2026-03-01,2027-03-01,1 (Medium - see Section 7 Cloud Audit),Active - Monitoring

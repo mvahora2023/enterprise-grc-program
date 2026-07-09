@@ -1,0 +1,21 @@
+Function,Category,Subcategory,Control Description,Current Maturity,Target Maturity,Gap,Priority,Remediation Action
+IDENTIFY,Asset Management,ID.AM-1,Physical devices and systems inventoried,3,4,1,Medium,Implement automated asset discovery via AWS Systems Manager Inventory; integrate with CMDB
+IDENTIFY,Asset Management,ID.AM-2,Software platforms and applications inventoried,2,4,2,High,Deploy software asset management tool; integrate with CI/CD pipeline; enforce registry of approved applications
+IDENTIFY,Governance,ID.GV-1,Organizational information security policy established and communicated,4,4,0,None,Maintain current state; continue annual policy review and acknowledgment training
+IDENTIFY,Risk Assessment,ID.RA-1,Asset vulnerabilities identified and documented,3,4,1,Medium,Expand vulnerability scanning scope to include container images IaC templates and serverless functions
+IDENTIFY,Risk Assessment,ID.RA-5,Threats vulnerabilities likelihoods and impacts used to determine risk,2,4,2,High,Implement formal risk assessment methodology with quarterly review cadence; integrate threat intelligence feeds
+PROTECT,Identity Management,PR.AC-1,Identities and credentials managed for authorized devices users and processes,3,4,1,High,Enforce MFA on all remaining legacy API endpoints; remediate IAM-01 service account gap
+PROTECT,Identity Management,PR.AC-4,Access permissions managed incorporating least privilege and separation of duties,2,4,2,High,Implement quarterly access recertification; remove dormant accounts; formalize RBAC for engineering sub-teams
+PROTECT,Awareness & Training,PR.AT-1,All users informed and trained on cybersecurity responsibilities,3,4,1,Medium,Increase phishing simulation frequency to monthly; add role-specific security training for privileged users
+PROTECT,Data Security,PR.DS-1,Data-at-rest protected via encryption,4,4,0,None,Maintain AES-256 encryption across all S3 buckets and RDS instances; validate key rotation annually
+PROTECT,Data Security,PR.DS-5,Protections against data leaks implemented,1,4,3,Critical,Evaluate and implement DLP solution (e.g. Microsoft Purview Forcepoint) within 90 days; define DLP policy scope
+PROTECT,Information Protection,PR.IP-3,Configuration change control processes in place,2,3,1,High,Enforce CAB approval for all production changes; deploy automated IaC drift detection via AWS Config and Terraform
+DETECT,Anomalies & Events,DE.AE-1,Baseline of network operations and expected data flows established,2,3,1,Medium,Document and baseline normal network traffic patterns using AWS VPC Flow Logs and GuardDuty behavioral baselines
+DETECT,Continuous Monitoring,DE.CM-1,Network monitored to detect potential cybersecurity events,3,4,1,Medium,Implement AWS GuardDuty with automated alerting to PagerDuty; establish 24x7 alert monitoring coverage
+DETECT,Continuous Monitoring,DE.CM-7,Monitoring for unauthorized personnel connections devices and software performed,2,4,2,High,Deploy UEBA/SIEM capability; evaluate Splunk Cloud or Microsoft Sentinel; define use cases and detection rules
+DETECT,Detection Processes,DE.DP-4,Event detection information communicated to appropriate parties,3,4,1,Medium,Update incident escalation runbook; define communication SLAs by severity level; test notification chains quarterly
+RESPOND,Response Planning,RS.RP-1,Response plan executed during or after a cybersecurity event,3,4,1,Medium,Conduct annual tabletop exercise; update IRP after each simulation exercise and material incident
+RESPOND,Communications,RS.CO-2,Incidents reported consistent with established criteria and timelines,2,4,2,High,Define and enforce incident reporting thresholds in writing; train all team leads; implement incident ticketing automation
+RESPOND,Analysis,RS.AN-1,Notifications from detection systems investigated in timely manner,3,4,1,Medium,Formalize alert triage SLAs by severity; assign on-call rotation; reduce MTTD to under 2 hours
+RECOVER,Recovery Planning,RC.RP-1,Recovery plan executed during or after a cybersecurity incident,2,4,2,Critical,Complete BCP/DR test by Q3 2026; document and validate RTO/RPO for all Tier 1 systems; assign DR Test Lead
+RECOVER,Improvements,RC.IM-1,Recovery plans incorporate lessons learned from incidents,2,3,1,Medium,Conduct post-incident reviews within 72 hours of incident closure; track all lessons learned in risk register

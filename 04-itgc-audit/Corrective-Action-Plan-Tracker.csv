@@ -1,0 +1,10 @@
+Finding ID,Finding Title,Severity,Owner,Due Date,Status,Notes
+AC-01,14 Terminated Employees with Active Okta Accounts,High,IT Manager,2026-08-01,In Progress,"SCIM integration under evaluation; 14 accounts manually deprovisioned pending automation"
+AC-02,Privileged Users with Excessive Access,High,IT Manager,2026-08-15,In Progress,"3 accounts remediated; quarterly recertification process in design"
+AC-03,MFA Not Enabled on 6 Service Accounts,Critical,IT Manager,2026-07-31,Overdue,"Remediation delayed due to API dependency mapping; CISO notified; extended to Aug 15"
+AC-04,8 Dormant User Accounts (90+ Days),Medium,IT Manager,2026-08-30,Open,"Automated report being built via Okta Workflows; manual review completed for identified accounts"
+AC-05,Shared Admin Account - Production Database,High,IT Manager,2026-08-01,In Progress,"Individual accounts provisioned for 2 of 3 engineers; shared account credentials rotated"
+CM-01,12 Changes Without CAB Approval,High,IT Manager,2026-08-15,In Progress,"Emergency change criteria being formalized; CAB approval workflow updated in Jira"
+CM-02,5 Unauthorized Production Deployments,High,Engineering Lead,2026-08-01,In Progress,"GitHub Actions integration with Jira in development; root cause investigation closed"
+CM-03,Rollback Procedures Not Documented (80% of Changes),Medium,IT Manager,2026-09-15,Open,"Jira template update in review; rollback documentation requirement to be enforced Q3 2026"
+CM-04,No Post-Implementation Reviews for Major Releases,Medium,Engineering Lead,2026-09-30,Open,"PIR process being drafted; first PIR scheduled for next major release (v4.2, August 2026)"

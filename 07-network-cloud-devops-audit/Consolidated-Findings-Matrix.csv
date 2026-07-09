@@ -1,0 +1,16 @@
+Finding ID,Area,Title,Severity,Owner,Due Date,Status
+NET-01,Network,Unrestricted inbound SSH access (0.0.0.0/0) on 3 EC2 instances,High,Engineering Lead,2026-07-25,In Progress
+NET-02,Network,No dev/prod VPC segmentation - lateral movement risk,High,Engineering Lead,2026-09-30,Open
+NET-03,Network,VPC Flow Logs missing on 2 of 5 VPCs,Medium,Engineering Lead,2026-08-01,Open
+NET-04,Network,Quarterly vulnerability scan frequency - gap between scans,Medium,Engineering Lead,2026-09-01,Open
+NET-05,Network,Route 53 DNS logging not enabled,Low,Engineering Lead,2026-10-31,Open
+CLD-01,Cloud,Public S3 bucket with 847 historical payroll export files - ACTIVE DATA EXPOSURE,Critical,CISO / Engineering Lead,2026-07-09 (Immediate),Emergency Response Active
+CLD-02,Cloud,CloudTrail not enabled in eu-west-1 (EU data residency region),High,Engineering Lead,2026-07-31,In Progress
+CLD-03,Cloud,4 IAM users with direct AdministratorAccess policy attachment,High,IT Manager,2026-08-01,Open
+CLD-04,Cloud,AWS Config not configured in 3 of 8 AWS accounts,Medium,Engineering Lead,2026-08-30,Open
+CLD-05,Cloud,RDS backup retention 7 days - below 90-day policy requirement,Medium,IT Manager,2026-07-31,In Progress
+DEV-01,DevOps,14 repositories with hardcoded secrets (AWS keys DB credentials API keys) - EMERGENCY,Critical,Engineering Lead,2026-07-09 (Immediate),Emergency Rotation Active
+DEV-02,DevOps,No mandatory SAST/DAST in CI/CD pipeline,High,Engineering Lead,2026-09-30,Open
+DEV-03,DevOps,6 repositories allow direct commits to main branch (no branch protection),High,Engineering Lead,2026-07-31,In Progress
+DEV-04,DevOps,No threat modeling for 3 major FY2026 feature releases,Medium,Engineering Lead,2026-10-01,Open
+DEV-05,DevOps,47 open dependency vulnerability alerts aging 90+ days - no remediation SLA,Low,Engineering Lead,2026-09-15,Open

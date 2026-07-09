@@ -1,0 +1,8 @@
+Finding ID,Severity,Title,Systems Affected,Owner,Target Remediation Date,Status
+IAM-01,Critical,Service accounts have no MFA or certificate-based authentication,"6 service accounts with production access (AWS RDS, Snowflake, GitHub API)",IT Manager,2026-08-15,In Progress
+IAM-02,High,Privileged access review not performed in 14 months,"Okta, AWS IAM, GitHub Enterprise, Snowflake, RDS",IT Manager,2026-10-01,Open
+IAM-03,High,81 of 350 users (23%) have not completed MFA enrollment,"Okta tenant - all SSO-connected applications",IT Manager,2026-07-31,In Progress
+IAM-04,High,RBAC not formally defined for 4 engineering sub-teams,"AWS IAM, GitHub Enterprise, Snowflake, production environment",Engineering Lead / IT Manager,2026-10-01,Open
+IAM-05,Medium,Password reset process bypasses MFA for 12 legacy application accounts,12 legacy application accounts (non-Okta SSO),IT Manager,2026-10-31,In Progress
+IAM-06,Medium,No automated alert for excessive privileged system accumulation,"Okta policy engine, all downstream privileged systems",IT Manager,2026-09-15,Open
+IAM-07,Low,MFA session token lifetime set to 24 hours - exceeds industry recommendation of 8 hours,Okta Global Session Policy,IT Manager,2026-11-01,Open

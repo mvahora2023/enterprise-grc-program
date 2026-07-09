@@ -1,0 +1,9 @@
+Metric,Q1 2026,Q2 2026,Annual Target,Trend
+Total Security Incidents,14,11,< 10 per quarter,Improving
+Critical (P1) Incidents,1,0,0,Improving
+Mean Time to Detect (MTTD - hours),4.2,3.1,< 2.0,Improving - Below Target
+Mean Time to Respond (MTTR - hours),8.6,6.4,< 4.0,Improving - Below Target
+Mean Time to Recover (hours),18.4,14.2,< 8.0,Improving - Below Target
+Incidents Closed Within SLA (%),79,91,> 95,Improving - Near Target
+Recurring Incidents (Same Root Cause),3,1,0,Improving
+SIEM Alert False Positive Rate (%),34,28,< 20,Improving - Below Target
