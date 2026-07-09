@@ -6,7 +6,7 @@
 ![CIS v8](https://img.shields.io/badge/Benchmark-CIS%20Controls%20v8-purple?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Complete-brightgreen?style=flat-square)
 
-**A full-cycle, board-to-workpaper Governance, Risk & Compliance program** — governance framework, an 18-item enterprise risk register, a NIST CSF gap assessment, an ITGC audit, a four-vendor third-party risk program, an IAM + SOC 2 Type II readiness audit, a network/cloud/DevOps security audit, a complete incident response program with a ransomware tabletop exercise, and board-ready executive reporting — all built around a single fictional company so every finding, risk, and dashboard number is internally consistent, the way a real enterprise GRC program actually works.
+**A full-cycle, board-to-workpaper Governance, Risk & Compliance program** — governance framework, an 18-item enterprise risk register, a NIST CSF gap assessment, an ITGC audit, a four-vendor third-party risk program, an IAM + SOC 2 Type II readiness audit, a network/cloud/DevOps security audit, and a complete incident response program with a ransomware tabletop exercise — all built around a single fictional company so every finding, risk, and control is internally consistent, the way a real enterprise GRC program actually works.
 
 Built by **Mahmadarsh Vahora** as a portfolio demonstration for GRC / cybersecurity compliance roles — **UGI, Vanguard, Citadel, Penn Medicine, Eliassen Group**, and similar enterprise GRC / IT audit / risk analyst positions.
 
@@ -14,7 +14,9 @@ Built by **Mahmadarsh Vahora** as a portfolio demonstration for GRC / cybersecur
 
 ## Why This Exists
 
-Most entry-level GRC candidates can describe frameworks. Almost none can produce the actual work product — a risk register with real scoring logic, an audit workpaper with sampling methodology, a SOC 2 readiness gap analysis, or a tabletop exercise that's designed to actually find gaps rather than just check a compliance box. This repository is that work product: 39 files, ~20,000 words of governance, audit, and risk documentation, and 15 structured CSV data tables ready to drop into Excel or Power BI, all cross-referencing the same fictional company (**NimbusHR Technologies** — see [`00-company-profile/`](00-company-profile/)) the way a real GRC program's risk register, audit findings, and executive dashboard describe the same organization.
+Most entry-level GRC candidates can describe frameworks. Almost none can produce the actual work product — a risk register with real scoring logic, an audit workpaper with sampling methodology, a SOC 2 readiness gap analysis, or a tabletop exercise that's designed to actually find gaps rather than just check a compliance box. This repository is that work product: 34 files, dense governance, audit, and risk documentation, and structured CSV data tables ready to drop into Excel, all cross-referencing the same fictional company (**NimbusHR Technologies** — see [`00-company-profile/`](00-company-profile/)) the way a real GRC program's risk register and audit findings describe the same organization.
+
+*Executive reporting and the control library (the board-facing rollup and the 20-control framework-mapping matrix) are part of this program but kept out of the public repository; happy to walk through them directly.*
 
 ## Repository Structure
 
@@ -64,13 +66,6 @@ enterprise-grc-program/
 │   └── Templates/
 │       ├── Post-Incident-Review-Template.md
 │       └── Tabletop-Exercise-Template.md
-├── 09-executive-reporting/
-│   ├── Annual-Executive-Risk-Report.md
-│   ├── GRC-Program-Scorecard.md
-│   ├── Master-CAP-Tracker.csv                  ← program-wide corrective action tracker
-│   └── Power-BI-Dashboard-Build-Guide.md       ← 6-page dashboard spec + DAX measures
-├── 10-control-library/
-│   └── Control-Library.csv                     ← 20 controls mapped to 4 frameworks
 └── docs/
     ├── AI-Build-Prompt.md                      ← how this was built, transparently
     └── Interview-Talking-Points.md
@@ -88,8 +83,6 @@ enterprise-grc-program/
 | 6 | [IAM & SOC 2 Readiness](06-iam-soc2-assessment/) | SOC 2 readiness: 62% — 2 audit-disqualifying failures identified |
 | 7 | [Network/Cloud/DevOps Audit](07-network-cloud-devops-audit/) | Public S3 bucket exposing 847 payroll files — active data exposure, not theoretical |
 | 8 | [Incident Response Program](08-incident-response-program/) | Ransomware tabletop — 5 of 8 injects surfaced a real, previously undocumented gap |
-| 9 | [Executive Reporting](09-executive-reporting/) | $4.5M+ estimated risk-exposure reduction from the H2 2026 roadmap |
-| — | [Control Library](10-control-library/) | 20 controls mapped to NIST CSF, NIST 800-53, SOC 2, and CIS Controls v8 |
 
 ## Frameworks Applied
 
@@ -97,7 +90,7 @@ NIST CSF 1.1 · NIST SP 800-53 · SOC 2 Type II (AICPA Trust Services Criteria) 
 
 ## A Note on Format
 
-The blueprint this program follows calls for real `.xlsx` and `.pbix` files. I built the equivalent of those honestly instead of faking binary files an AI can't actually produce: every register and tracker is a real, data-complete `.csv` (open directly in Excel or Google Sheets — GitHub also renders them as tables), and the dashboard is a full **build specification** — page layouts, visuals, and exact DAX measures — precise enough to stand up the real Power BI dashboard in under an hour. See [`09-executive-reporting/Power-BI-Dashboard-Build-Guide.md`](09-executive-reporting/Power-BI-Dashboard-Build-Guide.md).
+The blueprint this program follows calls for real `.xlsx` and `.pbix` files. I built the equivalent of those honestly instead of faking binary files an AI can't actually produce: every register and tracker is a real, data-complete `.csv` (open directly in Excel or Google Sheets — GitHub also renders them as tables). The executive Power BI dashboard is built from a full specification (page layouts, visuals, exact DAX measures) and is available on request rather than in this public repository.
 
 ## How This Was Built
 

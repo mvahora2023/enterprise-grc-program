@@ -51,4 +51,4 @@ Each risk is scored on a **5×5 likelihood-impact matrix** (Likelihood 1–5 × 
 
 ## Cross-References
 
-Every risk in this register reappears elsewhere in the program: R-001/R-004/R-016 in the [ITGC audit](../04-itgc-audit/ITGC-Audit-Report.md), R-003 in [vendor risk](../05-vendor-risk-management/Vendor-Risk-Register.csv), R-015 in the [incident response tabletop](../08-incident-response-program/Tabletop-Exercise-Operation-Frozen-Payroll.md), and all nine highest-residual risks in the [Executive Risk Report](../09-executive-reporting/Annual-Executive-Risk-Report.md).
+Every risk in this register reappears elsewhere in the program: R-001/R-004/R-016 in the [ITGC audit](../04-itgc-audit/ITGC-Audit-Report.md), R-003 in [vendor risk](../05-vendor-risk-management/Vendor-Risk-Register.csv), R-015 in the [incident response tabletop](../08-incident-response-program/Tabletop-Exercise-Operation-Frozen-Payroll.md), and all nine highest-residual risks in the Annual Executive Risk Report.

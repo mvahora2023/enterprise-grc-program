@@ -13,7 +13,7 @@ Evaluates NimbusHR against all five AICPA Trust Services Criteria ahead of the Q
 | Privacy (P) | 2 | 1 | 1 | 0 | **67%** | Needs Improvement |
 | **Overall** | **12** | **5** | **4** | **3** | **62%** | **Remediation Required Before Audit** |
 
-> **A minimum readiness score of 85% is recommended before scheduling the formal audit.** At 62%, NimbusHR is not yet ready. Two controls are **audit-disqualifying FAILs**: **A1.3** (no DR test in 18 months) and **C1.2** (no evidenced data disposal). Both are top H2 2026 priorities in the [Annual Executive Risk Report](../09-executive-reporting/Annual-Executive-Risk-Report.md).
+> **A minimum readiness score of 85% is recommended before scheduling the formal audit.** At 62%, NimbusHR is not yet ready. Two controls are **audit-disqualifying FAILs**: **A1.3** (no DR test in 18 months) and **C1.2** (no evidenced data disposal). Both are top H2 2026 priorities in the Annual Executive Risk Report.
 
 ## Key Test Results (Failing / Partial Controls)
 

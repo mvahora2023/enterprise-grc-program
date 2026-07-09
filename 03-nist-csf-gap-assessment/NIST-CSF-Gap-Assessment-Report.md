@@ -36,7 +36,7 @@ NimbusHR's cybersecurity program has a solid policy foundation and several stron
 
 The most urgent business risk is the **absence of a Data Loss Prevention (DLP) solution** (PR.DS-5, current maturity 1/4) — NimbusHR has no technical mechanism to detect or block unauthorized exfiltration of employee PII, SSNs, or banking data for 1.2M individuals, a direct exposure to GDPR fines, CCPA liability, and reputational harm to $42M in ARR.
 
-The second most urgent gap is the lack of **validated backup recovery** (RC.RP-1) — NimbusHR cannot currently confirm it could restore operations within contractually committed timeframes in a ransomware scenario. Both gaps directly threaten SOC 2 Type II certification, a contractual prerequisite for ~40% of NimbusHR's enterprise client base (~$16.8M ARR). Both are top priorities in the [Annual Executive Risk Report](../09-executive-reporting/Annual-Executive-Risk-Report.md)'s H2 2026 roadmap.
+The second most urgent gap is the lack of **validated backup recovery** (RC.RP-1) — NimbusHR cannot currently confirm it could restore operations within contractually committed timeframes in a ransomware scenario. Both gaps directly threaten SOC 2 Type II certification, a contractual prerequisite for ~40% of NimbusHR's enterprise client base (~$16.8M ARR). Both are top priorities in the Annual Executive Risk Report's H2 2026 roadmap.
 
 ## Framework Cross-Mapping (Selected)
 
@@ -48,4 +48,4 @@ The second most urgent gap is the lack of **validated backup recovery** (RC.RP-1
 | DE.CM-7 (no SIEM) | SI-4, AU-6 | 8.11, 13.1 | CC7.1 |
 | RC.RP-1 (no DR test) | CP-4, CP-9 | 11.2, 11.5 | A1.3 |
 
-A complete 20-control mapping to NIST 800-53, SOC 2, and CIS Controls v8 is maintained in [`10-control-library/Control-Library.csv`](../10-control-library/Control-Library.csv).
+A complete 20-control mapping to NIST 800-53, SOC 2, and CIS Controls v8 is maintained in the program's internal control library.
