@@ -102,6 +102,6 @@ Governance framework design · Enterprise risk assessment & risk register manage
 
 ## About
 
-**Mahmadarsh Vahora** — CompTIA Security+ | [github.com/mvahora2023](https://github.com/mvahora2023)
+**Mahmadarsh Vahora** | [github.com/mvahora2023](https://github.com/mvahora2023)
 
 *Classification: Portfolio simulation — public. All company names, data, and personnel referenced (NimbusHR Technologies and its vendors) are fictional, constructed solely for this simulation.*
