@@ -107,3 +107,11 @@ Governance framework design · Enterprise risk assessment & risk register manage
 **Mahmadarsh Vahora** | [github.com/mvahora2023](https://github.com/mvahora2023)
 
 *Classification: Portfolio simulation — public. All company names, data, and personnel referenced (NimbusHR Technologies and its vendors) are fictional, constructed solely for this simulation.*
+
+## Interactive project dashboard (November 2026)
+
+- **[Open this project's public interactive explorer](https://arsh-project-lab.vercel.app/enterprise-grc-program/index.html)**
+- **[Run the standalone HTML locally](dashboard/index.html)** (no account or service required)
+- **[Open the complete public Project Lab](https://arsh-project-lab.vercel.app/)**
+
+Explore the fictional enterprise risk register; not an actual audit. Source-linked sample data is embedded for offline inspection. Search, group filters and CSV export work locally; checklist review marks (where available) are browser-local only. The page is not a live backend, and changes in this repository will require a separate Vercel deployment until a Git integration is enabled. [Dashboard validation source](tests/dashboard_ui.test.mjs).
