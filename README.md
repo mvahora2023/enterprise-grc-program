@@ -4,9 +4,11 @@
 ![SOC 2](https://img.shields.io/badge/Standard-SOC%202%20Type%20II-green?style=flat-square)
 ![NIST 800-53](https://img.shields.io/badge/Controls-NIST%20SP%20800--53-orange?style=flat-square)
 ![CIS v8](https://img.shields.io/badge/Benchmark-CIS%20Controls%20v8-purple?style=flat-square)
-![Status](https://img.shields.io/badge/Status-Complete-brightgreen?style=flat-square)
+![Status](https://img.shields.io/badge/Status-Synthetic%20Portfolio%20Case%20Study-blue?style=flat-square)
 
-**A full-cycle, board-to-workpaper Governance, Risk & Compliance program** — governance framework, an 18-item enterprise risk register, a NIST CSF gap assessment, an ITGC audit, a four-vendor third-party risk program, an IAM + SOC 2 Type II readiness audit, a network/cloud/DevOps security audit, and a complete incident response program with a ransomware tabletop exercise — all built around a single fictional company so every finding, risk, and control is internally consistent, the way a real enterprise GRC program actually works.
+> **Accuracy note (Nov 2026):** All interviews, audit evidence, financial exposure figures and company personnel in this repository are **fabricated portfolio examples**, not actual audit procedures or services performed for a real employer. The scorecard uses **NIST CSF 1.1 identifiers** for historical training; [NIST CSF 2.0](https://www.nist.gov/cyberframework) has a different six-function structure and reorganized categories.
+
+**A full-cycle, board-to-workpaper Governance, Risk & Compliance program** — governance framework, an 18-item enterprise risk register, a NIST CSF gap assessment, an ITGC audit, an eight-vendor third-party risk register, an IAM + SOC 2 Type II readiness audit, a network/cloud/DevOps security audit, and a complete incident response program with a ransomware tabletop exercise — all built around a single fictional company so every finding, risk, and control is internally consistent, the way a real enterprise GRC program actually works.
 
 Built by **Mahmadarsh Vahora** as a portfolio demonstration for GRC / cybersecurity compliance roles — **UGI, Vanguard, Citadel, Penn Medicine, Eliassen Group**, and similar enterprise GRC / IT audit / risk analyst positions.
 
