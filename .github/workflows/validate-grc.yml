@@ -1,0 +1,15 @@
+name: Validate synthetic GRC datasets
+on:
+  push:
+    branches: [main]
+    paths: ['02-risk-register/**', '03-nist-csf-gap-assessment/**', '05-vendor-risk-management/**', 'tools/validate_program.py', '.github/workflows/validate-grc.yml']
+  pull_request:
+    paths: ['02-risk-register/**', '03-nist-csf-gap-assessment/**', '05-vendor-risk-management/**', 'tools/validate_program.py', '.github/workflows/validate-grc.yml']
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python tools/validate_program.py
