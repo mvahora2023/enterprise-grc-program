@@ -1,6 +1,8 @@
 # NIST CSF Gap Assessment — FY2026
 
-Full scorecard: [`NIST-CSF-Gap-Scorecard.csv`](NIST-CSF-Gap-Scorecard.csv) (20 subcategories across all 5 functions)
+Full scorecard: [`NIST-CSF-Gap-Scorecard.csv`](NIST-CSF-Gap-Scorecard.csv) (20 historical CSF **1.1** subcategories across its five functions).
+
+> **Framework version and evidence disclosure:** This exercise models NIST CSF 1.1, not NIST CSF 2.0. The current [NIST CSF 2.0](https://www.nist.gov/cyberframework) adds GOVERN and remaps multiple categories. All assessments, interviews, controls and numerical outcomes in this report are **fictional scenario assumptions**, not findings from a real organization. Do not interpret the synthetic case study as an actual external audit.
 
 ## Methodology
 
@@ -13,7 +15,7 @@ Conducted in accordance with **NIST Cybersecurity Framework v1.1**. Current matu
 | 3 | Repeatable | Controls are formally documented and consistently implemented |
 | 4 | Adaptive | Controls are automated, continuously monitored, and optimized |
 
-Evidence was gathered through management interviews, documentation inspection, system configuration review, and re-performance of selected control procedures. Target maturity states reflect client contractual requirements, regulatory obligations, and NimbusHR's [Risk Appetite Statement](../01-governance-framework/Risk-Appetite-Statement.md).
+The scenario assumes evidence would be gathered through management interviews, documentation inspection, configuration review, and selected control re-performance. **No real interviews, production inspections, or external audit procedures were conducted for this portfolio artifact.** Target maturity states reflect client contractual requirements, regulatory obligations, and NimbusHR's [Risk Appetite Statement](../01-governance-framework/Risk-Appetite-Statement.md).
 
 ## Maturity Summary by Function
 
