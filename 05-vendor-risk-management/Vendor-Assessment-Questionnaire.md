@@ -6,7 +6,7 @@
 
 Complete all sections applicable to your service tier. Responses should reflect current security posture. Supporting evidence (SOC 2 reports, certifications, pen test summaries) should be attached where indicated. Completed questionnaires are reviewed by the NimbusHR GRC team and retained for 3 years.
 
-**Return to:** `grc@nimbushr.com` | **Response Deadline:** 30 days from receipt
+**Return to:** `grc@nimbushr.example` | **Response Deadline:** 30 days from receipt
 
 ## Section 1 — Company & Service Overview (All Tiers)
 
@@ -105,4 +105,4 @@ By submitting this questionnaire, the undersigned attests that the information p
 | Date | |
 | Signature | |
 
-*NimbusHR GRC Team | `grc@nimbushr.com` | Vendor Management Policy POL-VMP-001*
+*NimbusHR GRC Team | `grc@nimbushr.example` | Vendor Management Policy POL-VMP-001*
