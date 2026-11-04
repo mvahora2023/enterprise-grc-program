@@ -28,7 +28,7 @@ Applies to all security events and incidents involving NimbusHR systems, data, v
 | Communications Lead | VP of Compliance — client and regulatory communications |
 | Legal Counsel | Regulatory notification obligations; evidence preservation; litigation hold |
 | HR Representative | Insider threat incidents; employee disciplinary process |
-| All Employees | Report suspected incidents to `security@nimbushr.com` within **1 hour** of discovery |
+| All Employees | Report suspected incidents to `security@nimbushr.example` within **1 hour** of discovery |
 
 ## 4. Operating Requirements by Phase
 
