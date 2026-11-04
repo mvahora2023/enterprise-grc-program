@@ -18,7 +18,7 @@ Establishes procedures, roles, and communication protocols NimbusHR executes for
 ## Incident Response Phases
 
 1. **Preparation** — current IRP reviewed/tested annually; 24×7 on-call via PagerDuty; playbooks for ransomware, data breach, phishing compromise, insider threat, cloud misconfiguration, DDoS; annual IRP training; monitoring via AWS GuardDuty, CloudTrail, CrowdStrike Falcon, PagerDuty, Proofpoint.
-2. **Identification** — detection sources: GuardDuty, PagerDuty, CrowdStrike, employee self-reporting (`security@nimbushr.com`), vendor notifications, external researcher reports. On-call Security Lead classifies severity per the matrix above.
+2. **Identification** — detection sources: GuardDuty, PagerDuty, CrowdStrike, employee self-reporting (`security@nimbushr.example`), vendor notifications, external researcher reports. On-call Security Lead classifies severity per the matrix above.
 3. **Containment** — *Short-term:* isolate affected systems (VPC security group / instance isolation); disable compromised Okta accounts; block malicious IPs at WAF; preserve volatile evidence before shutdown. *Long-term:* emergency patches; restrict to known-good IPs; expanded-scope investigation.
 4. **Eradication** — root cause analysis with forensic evidence; remove malware/backdoors/unauthorized access; remediate exploited vulnerability; rotate all potentially compromised credentials; harden related controls.
 5. **Recovery** — restore from last known-good backup (integrity-validated pre-compromise); validate system integrity before returning to production; 30-day enhanced monitoring; reconciliation of application/data integrity; documented recovery communications.
