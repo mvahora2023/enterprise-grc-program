@@ -47,4 +47,4 @@ Company systems may only be used for authorized business purposes. All activity 
 
 ## 7. Enforcement
 
-Violations may result in disciplinary action up to and including termination, and criminal conduct is referred to law enforcement. Suspected violations are reported to `security@nimbushr.com` or the anonymous ethics hotline.
+Violations may result in disciplinary action up to and including termination, and criminal conduct is referred to law enforcement. Suspected violations are reported to `security@nimbushr.example` or the anonymous ethics hotline.
